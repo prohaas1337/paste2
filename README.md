@@ -1,10 +1,15 @@
-# TraderForPoe
-## The tool is currently not in development
+# Source
+This whole repository based on the work of https://github.com/hexadezi/TraderForPoe .
+
+This is just a modification to work with the Path of Exile 2 client.
+
+## TraderForPoe
+### The tool is currently not in development
 This tool makes trading in Path of Exile easy. 
 
 It parses all incoming and outgoing trade whispers and shows a notification with usefull buttons.
 
-## Getting Started
+### Getting Started
 
 ### Features
 - Monitors the clipboard for trade whispers
