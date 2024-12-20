@@ -305,7 +305,7 @@ namespace TraderForPoe.Windows
         {
             if (poeHandle == IntPtr.Zero || !IsWindow(poeHandle))
             {
-                poeHandle = FindWindow("POEWindowClass", "Path of Exile");
+                poeHandle = FindWindow("POEWindowClass", "Path of Exile 2");
                 try
                 {
                     if (poeHandle != IntPtr.Zero)

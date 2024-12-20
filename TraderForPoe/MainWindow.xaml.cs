@@ -211,7 +211,7 @@ namespace TraderForPoe
 			if (strClipboard.StartsWith("@"))
 			{
 				// Get a handle to POE. The window class and window name were obtained using the Spy++ tool.
-				IntPtr poeHandle = FindWindow("POEWindowClass", "Path of Exile");
+				IntPtr poeHandle = FindWindow("POEWindowClass", "Path of Exile 2");
 				// Verify that POE is a running process.
 				if (poeHandle == IntPtr.Zero)
 				{
@@ -408,7 +408,7 @@ namespace TraderForPoe
 								if (line.Contains(" @"))
 								{
 									// Get a handle to POE. The window class and window name were obtained using the Spy++ tool.
-									IntPtr poeHandle = FindWindow("POEWindowClass", "Path of Exile");
+									IntPtr poeHandle = FindWindow("POEWindowClass", "Path of Exile 2");
 
 									// Verify that POE is a running process.
 									if (poeHandle != IntPtr.Zero)
@@ -512,7 +512,7 @@ namespace TraderForPoe
 		{
 			if (Settings.Default.HideIfPoeNotForeGround)
 			{
-				if (GetForegroundWindow() != FindWindow("POEWindowClass", "Path of Exile"))
+				if (GetForegroundWindow() != FindWindow("POEWindowClass", "Path of Exile 2"))
 					Hide();
 				else
 					Show();
