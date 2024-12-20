@@ -54,7 +54,7 @@ namespace TraderForPoe.Windows
 
         DispatcherTimer dispatcherTimer = new DispatcherTimer();
 
-        IntPtr poeHandle = FindWindow("POEWindowClass", "Path of Exile");
+        IntPtr poeHandle = FindWindow("POEWindowClass", "Path of Exile 2");
 
         // Needed to determine if poe window location changed
         private IntPtr hWinEventHook;
